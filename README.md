@@ -6,7 +6,7 @@ designed directly in html.
 
 You must have installed node.js on your computer. The node_modules are already in the repository
 and it is not necessary to install them with npm.
-Clone the repository to a local folder with git: **git clone https://github.com/sasc1/node_angular.git ~/myprojectfolder**.
+Clone the repository to a local folder with: **git clone https://github.com/sasc1/node_angular.git ~/myprojectfolder**.
 
 If you want the mongoose functionality, you must install mongodb and start the mongod server.
 In folder config change *url* in the file dbconfig.js to your DB.
