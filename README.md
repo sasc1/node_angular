@@ -1,9 +1,4 @@
 
-
-# votify
-
-
-
 ## Usage
 This repository is a minimalistic stack for node.js, angular.js and mongoose.
 Express.js is also used, but without the template language jade. The frontend is
@@ -24,9 +19,6 @@ The example programm uses a model *mymodels*. So you must insert it in your DB w
 
 Now start the node server with: **node server.js** from the command line (you should cd to the node_angular folder before).
 In the browser navigate to **localhost:300**. A button should be visible, press on it and a list of *mymodels* is displayed.
-
-## Developing
-
 
 
 ### Frameworks
