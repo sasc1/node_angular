@@ -23,6 +23,7 @@ The example programm uses a model *mymodels*. So you must insert it in your DB w
 4. insert collection and documents with **db.mymodels.insert({_id:1,name:"me"});**
 
 Now start the node server with: **node server.js** from the command line (you should cd to the node_angular folder).
+In the browser navigate to localhost:300. A button should be visible, press on it and a list of *mymodels* is displayed.
 
 ## Developing
 
