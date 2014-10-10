@@ -1,0 +1,10 @@
+<!-- Partial side -->
+<div ng-controller="MainController">
+    <h1>mymodels list</h1>
+    <button ng-click="getMyModelList()">Load list</button>
+    <ul>
+        <li ng-repeat="mymodel in myModelList">
+            <p>{{"Eintrag " + $index + ": " + mymodel.name}}</p>
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,1 @@
+angular.module("node_angular", ["ngRoute", "appRoutes", "MainCtrl", "MyModelService"]);
